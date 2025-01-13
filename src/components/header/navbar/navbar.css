@@ -20,3 +20,18 @@
   font-size: 20px;
   margin-left: -161px;
 }
+
+.navbar-user-info {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-user-info i {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-user-info i:hover {
+  color: #ff5733;
+}
